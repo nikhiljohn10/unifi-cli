@@ -1,0 +1,10 @@
+build/
+root/
+.DS_Store
+.fseventsd
+.Spotlight-V100
+Thumbs.db*
+ehthumbs*.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+._*
