@@ -7,16 +7,14 @@ description: |
   require a commandline interface to access certain functions like SSL
   certificates.
 
-grade: devel
-confinement: classic
+grade: dev
+confinement: devmode
 
 apps:
   unifi-cli:
-    command: sh $SNAP/bin/unifi
+    command: sh $SNAP/bin/unifi-cli
 
 parts:
   unifi-cli:
-    source: .
     plugin: dump
-    organize:
-      bin/unifi.sh: bin/unifi
+    source: .
